@@ -1,37 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
   <defs>
     <radialGradient id="bg" cx="50%" cy="42%" r="65%">
-      <stop offset="0%" stop-color="#1a2238"/>
-      <stop offset="70%" stop-color="#0f1526"/>
-      <stop offset="100%" stop-color="#080b14"/>
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#eef7f5"/>
+      <stop offset="100%" stop-color="#d6ece8"/>
     </radialGradient>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e3c77a"/>
-      <stop offset="45%" stop-color="#c9a24b"/>
-      <stop offset="100%" stop-color="#9a7a34"/>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3fb5a6"/>
+      <stop offset="45%" stop-color="#2a9d8f"/>
+      <stop offset="100%" stop-color="#1d7268"/>
     </linearGradient>
   </defs>
 
   <!-- Fundo circular -->
   <circle cx="200" cy="200" r="198" fill="url(#bg)"/>
-  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#gold)" stroke-width="1.4" opacity="0.85"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#teal)" stroke-width="1.4" opacity="0.85"/>
 
   <!-- Texto superior -->
   <path id="topArc" d="M 90 200 A 110 110 0 0 1 310 200" fill="none"/>
   <text font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="2"
-        fill="url(#gold)" font-style="italic">
+        fill="url(#teal)" font-style="italic">
     <textPath href="#topArc" startOffset="50%" text-anchor="middle">Dra Camila Marconi</textPath>
   </text>
 
   <!-- Texto inferior -->
   <path id="botArc" d="M 92 205 A 108 108 0 0 0 308 205" fill="none"/>
   <text font-family="Georgia, 'Times New Roman', serif" font-size="19" letter-spacing="6"
-        fill="url(#gold)">
+        fill="url(#teal)">
     <textPath href="#botArc" startOffset="50%" text-anchor="middle">CIRURGIÃ DENTISTA</textPath>
   </text>
 
   <!-- Monograma CM -->
-  <g fill="none" stroke="url(#gold)" stroke-linecap="round">
+  <g fill="none" stroke="url(#teal)" stroke-linecap="round">
     <!-- C -->
     <path d="M 205 135 A 55 62 0 1 0 205 262" stroke-width="9"/>
     <!-- M -->
@@ -39,5 +39,5 @@
   </g>
   <!-- Dente estilizado -->
   <path d="M 250 150 c 14 -6 30 2 30 20 c 0 14 -6 20 -9 30 c -2 7 -3 16 -8 16 c -4 0 -5 -8 -6 -12 c -1 -4 -6 -4 -7 0 c -1 4 -2 12 -6 12 c -5 0 -6 -9 -8 -16 c -3 -10 -9 -16 -9 -30 c 0 -16 12 -24 23 -20 z"
-        fill="url(#gold)" opacity="0.95"/>
+        fill="url(#teal)" opacity="0.95"/>
 </svg>
