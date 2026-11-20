@@ -1,5 +1,8 @@
 /* ===== Dra. Camila Marconi — interações ===== */
 
+// Número do WhatsApp (troque pelo número real, formato: 55 + DDD + número)
+const WHATSAPP = '5500000000000';
+
 // Ano no rodapé
 document.getElementById('ano').textContent = new Date().getFullYear();
 
@@ -50,4 +53,19 @@ if (!('IntersectionObserver' in window) || prefersReduced) {
   // Rede de segurança: se por algum motivo o observer não disparar
   // (aba em segundo plano etc.), garante que nada fique invisível.
   window.addEventListener('load', () => setTimeout(revealAll, 2500));
+}
+
+// Formulário -> abre WhatsApp com a mensagem
+function enviarWhatsApp(e) {
+  e.preventDefault();
+  const nome = document.getElementById('nome').value.trim();
+  const telefone = document.getElementById('telefone').value.trim();
+  const mensagem = document.getElementById('mensagem').value.trim();
+
+  let texto = `Olá Dra. Camila! Meu nome é ${nome}.`;
+  if (telefone) texto += ` Telefone: ${telefone}.`;
+  if (mensagem) texto += ` ${mensagem}`;
+
+  window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(texto)}`, '_blank');
+  return false;
 }
