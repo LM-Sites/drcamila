@@ -35,7 +35,7 @@
         <a href="#galeria" class="nav__link">Galeria</a>
         <a href="#depoimentos" class="nav__link">Depoimentos</a>
         <a href="#contato" class="nav__link">Contato</a>
-        <a href="https://wa.me/5513998008090?text=Ol%C3%A1%20Dra.%20Camila!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener" class="btn btn--gold nav__cta">Agendar</a>
+        <a href="#contato" class="btn btn--gold nav__cta">Agendar</a>
       </nav>
 
       <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
@@ -57,7 +57,7 @@
         com atendimento humanizado e resultados naturais.
       </p>
       <div class="hero__actions" data-reveal>
-        <a href="https://wa.me/5513998008090?text=Ol%C3%A1%20Dra.%20Camila!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener" class="btn btn--gold">Agendar Avaliação</a>
+        <a href="#contato" class="btn btn--gold">Agendar Avaliação</a>
         <a href="#servicos" class="btn btn--ghost">Ver Serviços</a>
       </div>
     </div>
@@ -79,12 +79,6 @@
   <!-- ===== SOBRE ===== -->
   <section class="section sobre" id="sobre">
     <div class="container sobre__grid">
-      <div class="sobre__media" data-reveal>
-        <img src="assets/dra-camila.jpg" alt="Dra. Camila Marconi" onerror="this.src='https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=800&auto=format&fit=crop'" />
-        <div class="sobre__badge">
-          <img src="assets/logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="" />
-        </div>
-      </div>
       <div class="sobre__content">
         <p class="eyebrow" data-reveal>Sobre a Dra. Camila</p>
         <h2 class="section__title" data-reveal>Cuidado, técnica e paixão por sorrisos</h2>
@@ -178,10 +172,6 @@
         <figure class="gallery__item" data-reveal><img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=600&auto=format&fit=crop" alt="Equipamentos" loading="lazy" /></figure>
         <figure class="gallery__item" data-reveal><img src="https://images.unsplash.com/photo-1612278675615-7b093b07772d?q=80&w=600&auto=format&fit=crop" alt="Cuidado dental" loading="lazy" /></figure>
       </div>
-
-      <div class="galeria__cta" data-reveal>
-        <a href="https://www.instagram.com/dracamilamarconi_" target="_blank" rel="noopener" class="btn btn--ghost">Ver mais no Instagram</a>
-      </div>
     </div>
   </section>
 
@@ -220,7 +210,7 @@
         <p class="eyebrow" data-reveal>Vamos conversar</p>
         <h2 class="section__title" data-reveal>Agende sua avaliação</h2>
         <p data-reveal>
-          Entre em contato para tirar dúvidas ou marcar seu horário. Será um prazer
+          Visite o consultório para tirar dúvidas ou marcar seu horário. Será um prazer
           cuidar do seu sorriso!
         </p>
 
@@ -230,36 +220,11 @@
             <div><strong>Endereço</strong><br />Rua Exemplo, 123 — Centro, Sua Cidade</div>
           </li>
           <li data-reveal>
-            <span class="contato__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span>
-            <div><strong>WhatsApp</strong><br /><a href="https://wa.me/5513998008090" target="_blank" rel="noopener">(13) 99800-8090</a></div>
-          </li>
-          <li data-reveal>
-            <span class="contato__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17 6.5h.01"/></svg></span>
-            <div><strong>Instagram</strong><br /><a href="https://www.instagram.com/dracamilamarconi_" target="_blank" rel="noopener">@dracamilamarconi_</a></div>
-          </li>
-          <li data-reveal>
             <span class="contato__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg></span>
             <div><strong>Horário</strong><br />Seg. a Sex. — 09h às 18h</div>
           </li>
         </ul>
       </div>
-
-      <form class="contato__form" data-reveal onsubmit="return enviarWhatsApp(event)">
-        <h3>Envie uma mensagem</h3>
-        <div class="field">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
-        </div>
-        <div class="field">
-          <label for="telefone">Telefone</label>
-          <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" />
-        </div>
-        <div class="field">
-          <label for="mensagem">Mensagem</label>
-          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como posso te ajudar?" required></textarea>
-        </div>
-        <button type="submit" class="btn btn--gold btn--block">Enviar pelo WhatsApp</button>
-      </form>
     </div>
   </section>
 
@@ -279,19 +244,12 @@
         <a href="#galeria">Galeria</a>
         <a href="#contato">Contato</a>
       </nav>
-      <div class="footer__social">
-        <a href="https://www.instagram.com/dracamilamarconi_" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
-      </div>
     </div>
     <div class="footer__bottom">
       <p>© <span id="ano"></span> Dra. Camila Marconi — Todos os direitos reservados.</p>
     </div>
   </footer>
 
-  <!-- Botão flutuante WhatsApp -->
-  <a href="https://wa.me/5513998008090?text=Ol%C3%A1%20Dra.%20Camila!" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Fale no WhatsApp">
-    <svg viewBox="0 0 32 32" fill="currentColor" width="28" height="28"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.2-.4c-1-1.6-1.5-3.4-1.5-5.3C5 9.5 9.9 4.6 16 4.6S27 9.5 27 15.6 22.1 24.8 16 24.8zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 2 .8 2.7.9 3.7.8.6-.1 1.8-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
-  </a>
 
   <script src="js/script.js"></script>
 </body>

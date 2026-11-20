@@ -11,20 +11,12 @@ Basta abrir o arquivo **`index.html`** no navegador (duplo clique).
 1. **Logo real** — salve a imagem da logo como `assets/logo.png`.
    Enquanto não fizer isso, o site usa uma logo desenhada (`assets/logo.svg`) automaticamente.
 
-2. **Foto da Dra. Camila** — salve como `assets/dra-camila.jpg` (na seção "Sobre").
-   Se não existir, aparece uma foto genérica.
+2. **Endereço e horário** — na seção "Contato" do `index.html`.
 
-3. **Número do WhatsApp** — troque `5500000000000` pelo número real
-   (formato: 55 + DDD + número, ex.: `5511987654321`) em:
-   - `js/script.js` (linha `const WHATSAPP`)
-   - `index.html` (procure por `wa.me/5500000000000`)
-
-4. **Telefone, endereço e horário** — na seção "Contato" do `index.html`.
-
-5. **Textos e serviços** — ajuste livremente os textos, números da faixa
+3. **Textos e serviços** — ajuste livremente os textos, números da faixa
    de destaques (+8 anos, +2.000 sorrisos…) e a lista de serviços no `index.html`.
 
-6. **Fotos da galeria** — substitua os links das imagens (hoje são fotos de
+4. **Fotos da galeria** — substitua os links das imagens (hoje são fotos de
    exemplo) por fotos reais do consultório/trabalhos.
 
 ## Estrutura
@@ -32,11 +24,8 @@ Basta abrir o arquivo **`index.html`** no navegador (duplo clique).
 dentistacamila/
 ├── index.html          → conteúdo do site
 ├── css/style.css       → estilos (cores, layout)
-├── js/script.js        → menu, animações, formulário WhatsApp
+├── js/script.js        → menu e animações
 └── assets/
     ├── logo.png        → (você adiciona) logo real
-    ├── logo.svg        → logo desenhada (fallback)
-    └── dra-camila.jpg  → (você adiciona) foto da doutora
+    └── logo.svg        → logo desenhada (fallback)
 ```
-
-Instagram configurado: [@dracamilamarconi_](https://www.instagram.com/dracamilamarconi_)
